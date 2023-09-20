@@ -2,6 +2,7 @@
   <div
     :class="{ 'bg-dark': nightMode, 'bg-white': !nightMode }"
     class="pt-5 p-st"
+    id="banner-section"
   >
     <div
       class="container"

@@ -26,7 +26,7 @@
       />
 
       <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
-      <v-tab title="design">
+      <v-tab title="Motion Graphics">
           <div class="row">
             <div
               v-for="(design, idx) in desgin_info"
@@ -67,13 +67,14 @@
                   <span class="date ml-1">{{design.date}}</span>
                 </div>
 
-                <button
+                <a
                   style="height: 31px; margin-top: 5px;"
                   class="btn-sm btn btn-outline-secondary no-outline"
-                  @click.prevent="showDesignModalFn(design)"
+                  v-bind:href="design.vidlink"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   read more
-                </button>
+                </a>
               </div>
             </div>
           </div>

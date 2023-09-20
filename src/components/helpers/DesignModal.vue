@@ -47,7 +47,7 @@
             </div>
             <hr />
             <div>
-              <Gallery :images="portfolio.pictures" :design="true" />
+              <Gallery :images="portfolio.videos" :design="true" />
             </div>
           </div>
 

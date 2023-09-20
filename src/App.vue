@@ -36,7 +36,7 @@ export default {
   },
   data() {
     return {
-      nightMode: false,
+      nightMode: true,
       config: info.config,
     };
   },
@@ -105,7 +105,11 @@ export default {
 }
 
 .bg-dark2 {
-  background-color: #262c30 !important;
+  background-color: #000 !important;
+}
+
+.bg-white{
+  background-color: #fbfbfb !important;
 }
 
 .text-light {
