@@ -3,6 +3,7 @@
     :class="{ 'bg-dark': nightMode, 'bg-white': !nightMode }"
     class="pt-5 p-st"
     id="banner-section"
+    v-bind:style="{ 'background-image': 'url(' + bgimage + ')' }"
   >
     <div
       class="container"
@@ -16,12 +17,11 @@
         </div>
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
           <span
-            class="home-title"
-            :class="{ pgray: !nightMode, 'text-light': nightMode }"
+            class="home-title text-light"
             >Welcome!</span
           >
           <div>
-            <p v-html="description"></p>
+            <p v-html="description" class="text-light"></p>
           </div>
           <div class="text-center pb-4">
             <button
@@ -82,7 +82,8 @@ export default {
       linkedin: info.links.linkedin,
       github: info.links.github,
       behance: info.links.behance,
-      resume: info.links.resume
+      resume: info.links.resume,
+      bgimage: info.banner_image
     };
   },
   methods: {
@@ -111,6 +112,13 @@ export default {
   font-size: 32px;
   font-weight: 500;
 }
+
+#banner-section{
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 
 img {
   max-width: 800px;
