@@ -2,6 +2,7 @@ let info = {
   name: "David Daniel Padilla",
   logo_name: "David",
   flat_picture: require("./src/assets/david-pic.png"),
+  banner_image: require("./src/assets/banner-bg.jpeg"),
   config: {
     use_cookies: true,
     navbar: {
@@ -99,7 +100,7 @@ let info = {
         }
       ],
       vidlink: "https://drive.google.com/file/d/1K0E13TCQ_vYsY9a7H9cLJgGOTtqIbmE9/view?usp=drive_link",
-      technologies: ["Figma", "Photoshop"],
+      technologies: ["Adobe After Effects"],
       category: "Visual Design",
       github: "",
       date: "Jan, 2022",
@@ -116,7 +117,7 @@ let info = {
         }
       ],
       vidlink: "https://drive.google.com/file/d/1eebVdw976ziVXUe6wXkFVTqaEasHCQhZ/view?usp=sharing",
-      technologies: ["Figma", "Illustrator"],
+      technologies: ["Adobe After Effects"],
       category: "Visual Design",
       github: "",
       date: "Dec, 2021",
@@ -133,7 +134,7 @@ let info = {
         }
       ],
       vidlink: "https://drive.google.com/file/d/19NaLnGoUIO_ar_DXhJ9VOxll-tkoHRUl/view?usp=sharing",
-      technologies: ["Figma", "Illustrator"],
+      technologies: ["Adobe After Effects"],
       category: "Visual Design",
       github: "",
       date: "Dec, 2021",
@@ -150,7 +151,7 @@ let info = {
         }
       ],
       vidlink: "https://drive.google.com/file/d/1SAyycdRb8p5POIE5XPXo0whMCltdG_mZ/view?usp=drive_link",
-      technologies: ["Figma", "Illustration"],
+      technologies: ["Adobe After Effects"],
       category: "Visual Design",
       github: "",
       date: "Nov, 2021",
@@ -167,7 +168,7 @@ let info = {
         }
       ],
       vidlink: "https://drive.google.com/file/d/1Fcy9CnUQvMMTQV3rD5kWPUPixs-oeiEb/view?usp=drive_link",
-      technologies: ["XD", "Illustrator"],
+      technologies: ["Adobe After Effects"],
       category: "Visual Design",
       github: "",
       date: "Apr, 2021",
@@ -184,7 +185,7 @@ let info = {
         }
       ],
       vidlink: "https://drive.google.com/file/d/1Fp3xqyhmbyoGSSsFj6YOWQkYB4wTR8gD/view?usp=drive_link",
-      technologies: ["XD", "Illustrator"],
+      technologies: ["Adobe After Effects"],
       category: "Visual Design",
       github: "",
       date: "Apr, 2021",
@@ -201,7 +202,7 @@ let info = {
         }
       ],
       vidlink: "https://drive.google.com/file/d/1dw9frGFSX2AvE8wgY7JycEv7TXRYF3yx/view?usp=drive_link",
-      technologies: ["XD", "Illustrator"],
+      technologies: ["Adobe After Effects"],
       category: "Visual Design",
       github: "",
       date: "Apr, 2021",
@@ -218,7 +219,7 @@ let info = {
         }
       ],
       vidlink: "https://drive.google.com/file/d/12uRye0dNXNU4rCjXpO-NPDdFvR_HRb4z/view?usp=drive_link",
-      technologies: ["XD", "Illustrator"],
+      technologies: ["Adobe After Effects", "Premiere Pro"],
       category: "Visual Design",
       github: "",
       date: "Apr, 2021",
@@ -235,7 +236,7 @@ let info = {
         }
       ],
       vidlink: "https://drive.google.com/file/d/1us5V8pl9m5YWx5P6WVtxNujBtZaYzDEo/view?usp=drive_link",
-      technologies: ["XD", "Illustrator"],
+      technologies: ["Adobe After Effects"],
       category: "Visual Design",
       github: "",
       date: "Apr, 2021",
@@ -252,7 +253,7 @@ let info = {
         }
       ],
       vidlink: "https://drive.google.com/file/d/1nveMfy7weZMhtpq97P39CmwdcJMkBqmA/view?usp=drive_link",
-      technologies: ["XD", "Illustrator"],
+      technologies: ["Adobe After Effects"],
       category: "Visual Design",
       github: "",
       date: "Apr, 2021",
@@ -269,7 +270,7 @@ let info = {
         }
       ],
       vidlink: "https://drive.google.com/file/d/1jdtZ4ECkxjDNG4KIo_G1Nz8tkOxInAUg/view?usp=drive_link",
-      technologies: ["XD", "Illustrator"],
+      technologies: ["Adobe After Effects", "DaVinci Resolve"],
       category: "Visual Design",
       github: "",
       date: "Apr, 2021",
@@ -286,7 +287,7 @@ let info = {
         }
       ],
       vidlink: "https://drive.google.com/file/d/1IGyxtO2qWYThRQ_pe25n0Ml6nl2QtPKC/view?usp=drive_link",
-      technologies: ["XD", "Illustrator"],
+      technologies: ["Adobe After Effects"],
       category: "Visual Design",
       github: "",
       date: "Apr, 2021",
