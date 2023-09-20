@@ -42,7 +42,7 @@ export default {
   },
   created() {
     if (this.config.use_cookies) {
-      this.nightMode = this.$cookie.get("nightMode") === "true" ? true : false;
+      this.nightMode = this.$cookie.get("nightMode") === "true" ? true : true;
     }
   },
   mounted() {
