@@ -15,7 +15,7 @@
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 text-center">
           <img :src="picture" />
         </div>
-        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5">
+        <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pt-5" id="description">
           <span
             class="home-title text-light"
             >Welcome!</span
@@ -119,20 +119,23 @@ export default {
   background-repeat: no-repeat;
 }
 
+#description{
+  background-color: rgba(0,0,0,0.8);
+}
+
 
 img {
-  max-width: 800px;
-  max-height: 500px;
+  max-width: 700px;
+  max-height: 600px;
   margin-top: 80px;
-  transform: rotateY(180deg);
 }
 
 @media only screen and (max-width: 580px) {
   img {
     object-fit: cover;
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 500px;
     margin-top: 10px;
     margin-bottom: 10px;
     border: 2px solid rgb(205, 205, 205);
