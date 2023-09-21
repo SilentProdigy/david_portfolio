@@ -1,8 +1,8 @@
 let info = {
   name: "David Daniel Padilla",
   logo_name: "David",
-  flat_picture: require("./src/assets/david-pic.png"),
-  banner_image: require("./src/assets/banner-bg.jpeg"),
+  flat_picture: require("./src/assets/motion graphics/david_pic.png"),
+  banner_image: require("./src/assets/motion graphics/banner_bg.png"),
   config: {
     use_cookies: true,
     navbar: {
@@ -10,7 +10,7 @@ let info = {
     }
   },
   description:
-    "Hi! I am David Daniel Padilla a creative professional with five years of experience in the fields of motion graphics and cinematography. I offer a unique blend of skills with my work, seamlessly integrating his expertise in Adobe After Effects, Adobe Premiere Pro, and DaVinci Resolve with my talents and experience as a cinematographer at Foto Candid Photography and Videography Studios. I am passionate about storytelling and visual aesthetics and have a keen eye for design which helped me successfully with a wide range of projects that I worked on, including commercials, promotional videos, and film productions.",
+    "Hi! I am David Daniel Padilla a creative professional with five years of experience in the fields of motion graphics and cinematography. I offer a unique blend of skills with my work, seamlessly integrating my expertise in Adobe After Effects, Adobe Premiere Pro, and DaVinci Resolve with my talents and experience as a cinematographer at Foto Candid Photography and Videography Studios. I am passionate about storytelling and visual aesthetics and have a keen eye for design which helped me successfully with a wide range of projects that I worked on, including commercials, promotional videos, and film productions.",
   links: {
     linkedin: "https://www.linkedin.com/in/mahy-mohab-209/",
     github: "https://github.com/mahy209",
