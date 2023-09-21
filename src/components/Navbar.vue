@@ -68,7 +68,7 @@
                 >Contact</a
               >
             </li>
-            <li class="nav-item ml-2">
+            <!-- <li class="nav-item ml-2">
               <a
                 class="nav-link"
                 href="#"
@@ -82,7 +82,7 @@
                   v-tooltip.bottom="nightMode ? 'Light Mode' : 'Night Mode'"
                 ></i
               ></a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
