@@ -1,6 +1,6 @@
 let info = {
   name: "David Daniel Padilla",
-  logo_name: "David",
+  logo_name: "David Daniel",
   flat_picture: require("./src/assets/motion graphics/david_pic.png"),
   banner_image: require("./src/assets/motion graphics/banner_bg.png"),
   config: {
@@ -55,39 +55,39 @@ let info = {
     {
       title: "Motion Graphics",
       info: ["Adobe After Effects"],
-      icon: "fa fa-pencil-square-o"
+      icon: "fa fa-photo-video"
     },
     {
       title: "Cinematography",
       info: [
         "Adobe Premiere Pro","Davinci Resolve"],
-      icon: "fa fa-code"
+      icon: "fa fa-film"
     },
     {
       title: "Animation",
       info: [
         "Adobe After Effects"],
-      icon: "fa fa-cubes"
+      icon: "fa fa-video"
     },
     {
       title: "Video Editing",
       info: ["Adobe Premiere Pro","Davinci Resolve"],
-      icon: "fas fa-laptop-code"
+      icon: "fas fa-file-video"
     },
     {
       title: "Visual Effects",
       info: ["Adobe After Effects"],
-      icon: "fas fa-laptop-code"
+      icon: "fas fa-edit"
     },
     {
       title: "Color Correction/Grading",
       info: ["DaVinci Resolve"],
-      icon: "fas fa-laptop-code"
+      icon: "fas fa-palette"
     },
     {
       title: "Sound Design",
       info: ["Logic Pro"],
-      icon: "fas fa-laptop-code"
+      icon: "fas fa-file-audio"
     },
   ],
   portfolio_design: [
