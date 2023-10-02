@@ -25,32 +25,32 @@
           </div>
           <div class="text-center pb-4">
             <button
-              class="btn btn-outline-secondary mx-2 "
-              @click="open('linkedin')"
-              v-tooltip.bottom="'LinkedIn'"
+              class="btn btn-outline-secondary mx-2"
+              @click="open('instagram')"
+              v-tooltip.bottom="'Instagram'"
             >
-              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-instagram"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
-              @click="open('github')"
-              v-tooltip.bottom="'GitHub'"
+              @click="open('facebook')"
+              v-tooltip.bottom="'Facebook'"
             >
-              <i class="fab fa-github"></i>
+              <i class="fab fa-facebook"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
-              @click="open('behance')"
-              v-tooltip.bottom="'behance'"
+              @click="open('youtube')"
+              v-tooltip.bottom="'Twitter'"
             >
-              <i class="fab fa-behance"></i>
+              <i class="fab fa-twitter"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('resume')"
               v-tooltip.bottom="'Resume'"
             >
-              <i class="fa fa-file"></i>
+              Download my CV <i class="fas fa-link"></i>
             </button>
           </div>
         </div>
@@ -79,9 +79,9 @@ export default {
       picture: info.flat_picture,
       description: info.description,
       name: info.name,
-      linkedin: info.links.linkedin,
-      github: info.links.github,
-      behance: info.links.behance,
+      instagram: info.links.instagram,
+      facebook: info.links.facebook,
+      youtube: info.links.youtube,
       resume: info.links.resume,
       bgimage: info.banner_image
     };
@@ -89,14 +89,14 @@ export default {
   methods: {
     open(link) {
       switch (link) {
-        case "linkedin":
-          window.open(this.linkedin, "_blank");
+        case "instagram":
+          window.open(this.instagram, "_blank");
           break;
-        case "github":
-          window.open(this.github, "_blank");
+        case "facebook":
+          window.open(this.facebook, "_blank");
           break;
-        case "behance":
-          window.open(this.behance, "_blank");
+        case "youtube":
+          window.open(this.youtube, "_blank");
           break;
         case "resume":
           window.open(this.resume, "_blank");
@@ -139,6 +139,7 @@ img {
     margin-top: 10px;
     margin-bottom: 10px;
     border: 2px solid rgb(205, 205, 205);
+    background-color: rgba(0,0,0,0.8);
   }
 }
 
