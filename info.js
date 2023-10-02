@@ -12,9 +12,9 @@ let info = {
   description:
     "Hi! I am David Daniel Padilla a creative professional with five years of experience in the fields of motion graphics and cinematography. I offer a unique blend of skills with my work, seamlessly integrating my expertise in Adobe After Effects, Adobe Premiere Pro, and DaVinci Resolve with my talents and experience as a cinematographer at Foto Candid Photography and Videography Studios. I am passionate about storytelling and visual aesthetics and have a keen eye for design which helped me successfully with a wide range of projects that I worked on, including commercials, promotional videos, and film productions.",
   links: {
-    linkedin: "https://www.linkedin.com/in/mahy-mohab-209/",
-    github: "https://github.com/mahy209",
-    behance: "https://www.behance.net/mahymohab",
+    facebook: "https://www.facebook.com/Xclaveria",
+    instagram: "https://www.instagram.com/xclaveria/",
+    youtube: "https://www.youtube.com/@daviddanielpadilla/",
     resume: "https://drive.google.com/file/d/1W0pzOo1Gb-W70BYKehOfZ4qaJt7m1_7O/view?usp=sharing",
   },
   education: [
