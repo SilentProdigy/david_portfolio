@@ -41,9 +41,9 @@
             <button
               class="btn btn-outline-secondary mx-2"
               @click="open('youtube')"
-              v-tooltip.bottom="'Twitter'"
+              v-tooltip.bottom="'Youtbe'"
             >
-              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
