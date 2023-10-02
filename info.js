@@ -15,7 +15,7 @@ let info = {
     facebook: "https://www.facebook.com/Xclaveria",
     instagram: "https://www.instagram.com/xclaveria/",
     youtube: "https://www.youtube.com/@daviddanielpadilla/",
-    resume: "https://drive.google.com/file/d/1W0pzOo1Gb-W70BYKehOfZ4qaJt7m1_7O/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1Fy8kkjsNyONgwMI0uqvbZn3keEThvhc8/view?usp=share_link",
   },
   education: [
     {
