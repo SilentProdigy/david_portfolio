@@ -6,28 +6,28 @@
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white;"
         >
-          <span>Developed by: Anthony Mark Lopez</span>
+          
         </div>
 
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <div class="text-center">
             <button
               class="btn btn-outline-secondary mx-2 "
-              @click="open('linkedin')"
+              @click="open('facebook')"
             >
-              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-facebook"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
-              @click="open('github')"
+              @click="open('instagram')"
             >
-              <i class="fab fa-github"></i>
+              <i class="fab fa-instagram"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
-              @click="open('behance')"
+              @click="open('youtube')"
             >
-              <i class="fab fa-behance"></i>
+              <i class="fab fa-youtube"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
@@ -49,23 +49,23 @@ export default {
   name: "Footer",
   data() {
     return {
-      linkedin: info.links.linkedin,
-      github: info.links.github,
-      behance: info.links.behance,
+      instagram: info.links.instagram,
+      facebook: info.links.facebook,
+      youtube: info.links.youtube,
       resume: info.links.resume,
     };
   },
   methods: {
     open(link) {
       switch (link) {
-        case "linkedin":
-          window.open(this.linkedin, "_blank");
+        case "instagram":
+          window.open(this.instagram, "_blank");
           break;
-        case "github":
-          window.open(this.github, "_blank");
+        case "facebook":
+          window.open(this.facebook, "_blank");
           break;
-        case "behance":
-          window.open(this.behance, "_blank");
+        case "youtube":
+          window.open(this.youtube, "_blank");
           break;
         case "resume":
           window.open(this.resume, "_blank");
